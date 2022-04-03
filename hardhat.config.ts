@@ -35,6 +35,10 @@ const config: HardhatUserConfig = {
       url: 'https://matic-mumbai.chainstacklabs.com',
       accounts,
     },
+    pops: {
+      url: 'https://api.s0.b.hmny.io',
+      accounts,
+    },
   },
   gasReporter: {
     enabled: process.env.REPORT_GAS !== undefined,
